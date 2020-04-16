@@ -4,7 +4,9 @@ const { projects } = require ('../data.json');
 
 router.get ('/projects/:id', (req, res) => {
     const { id } = req.params;
-    res.render ('project', { id, projects });
+    const project = projects[id];  
+    // versuch mal for loop
+    res.render ('project', { project });
 });
 
 module.exports = router; 
