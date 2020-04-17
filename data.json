@@ -36,7 +36,7 @@
         {
             "id": 2,
             "project_name": "Public Api Requests",
-            "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. The app allows emplyees to share contact information with each other.",
+            "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. The app allows employees to share contact information with each other.",
             "technologies": [
                 "JavaScript",
                 "HTML/CSS"
