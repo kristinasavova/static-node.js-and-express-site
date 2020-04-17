@@ -29,8 +29,7 @@
             "thumbnail_url": "../static/images/phrase_hunter_main.png",
             "image_urls": [
                 "../static/images/phrase_hunter_show.jpeg",
-                "../static/images/phrase_hunter_start.jpeg",
-                "../static/images/phrase_hunter_end.jpeg"
+                "../static/images/phrase_hunter_start.jpeg"
             ]
         },
         {
@@ -47,6 +46,22 @@
             "image_urls": [
                 "../static/images/public_api_requests_show.jpeg",
                 "../static/images/public_api_requests_module.jpeg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "List Pagination and Filtering",
+            "description": "In this project, JavaScript improves the usability of a webpage displaying only ten students at a time and adding a list of navigation links at the bottom of the page. This solution works with a list of any number of students. Also, a search component is added. The principle of 'progressive enhancement' is used: the page still displays the list of students with the JavaScript turned-off, but gets 'improved' with the JavaScript programming added.",
+            "technologies": [
+                "JavaScript",
+                "HTML/CSS"
+            ],
+            "live_link": "https://kristinasavova.github.io/techdegree-project-2/#",
+            "github_link": "https://github.com/kristinasavova/techdegree-project-2",
+            "thumbnail_url": "../static/images/pagination_filter.png",
+            "image_urls": [
+                "../static/images/pagination_filter_search.jpeg",
+                "../static/images/pagination_filter_links.jpeg"
             ]
         }
     ]
