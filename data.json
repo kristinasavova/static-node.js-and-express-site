@@ -19,7 +19,7 @@
         {
             "id": 1,
             "project_name": "Phrase Hunter",
-            "description": "In this project, JavaScript and OOP are used to select a random hidden phrase, which a player tries to guess by clicking letters on an onscreen or on a physical computer keyboard.",
+            "description": "In this project, JavaScript and object-oriented programming are used to select a random hidden phrase, which a player tries to guess by clicking letters on an onscreen or on a physical computer keyboard.",
             "technologies": [
                 "JavaScript",
                 "HTML/CSS"
@@ -62,6 +62,22 @@
             "image_urls": [
                 "../static/images/pagination_filter_search.jpeg",
                 "../static/images/pagination_filter_links.jpeg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Interactive Form",
+            "description": "In this project, JavaScript is used to enhance an interactive registration form for a fictional conference by: -adding customized and conditional behavior and interactivity; -validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": [
+                "JavaScript",
+                "HTML/CSS"
+            ],
+            "live_link": "https://kristinasavova.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/kristinasavova/techdegree-project-3",
+            "thumbnail_url": "../static/images/interactive_form.png",
+            "image_urls": [
+                "../static/images/interactive_form_top.jpeg",
+                "../static/images/interactive_form_bottom.jpeg"
             ]
         }
     ]
