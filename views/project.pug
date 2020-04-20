@@ -15,6 +15,6 @@ block content
             li= `${technologie}`
         a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
         a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
-    each image_url in project.image_urls
-      img.image(src=`${image_url}`)
+    img.image(src=`${project.image_urls[1]}`)
+    img.image(src=`${project.image_urls[2]}`)
       

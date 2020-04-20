@@ -10,10 +10,16 @@ router.get ('/projects', (req, res) => {
 });
 
 // dynamic 'project' routes based on the id of the project that render a customized version of the Pug project template 
-router.get ('/projects/:id', (req, res) => {
+router.get ('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     const project = projects[id]; 
-    res.render ('project', { project });
+    if (id < projects.length) { // render project only if one exists
+        res.render ('project', { project });
+    } else { // if project doesn't exist, use error handler 
+        const err = new Error ('Not Found');
+        err.status = 404;
+        next (err); 
+    }
 });
 
 module.exports = router; 
