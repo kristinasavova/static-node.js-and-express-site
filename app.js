@@ -18,6 +18,7 @@ app.use (projectsRoutes);
 // if a user navigates to a non-existent route, or if a request fails for whatever reason
 app.use ((req, res, next) => {
     const err = new Error ('Not Found');
+    console.log ('Not Found', err);
     err.status = 404;
     next (err); 
 });
@@ -25,6 +26,7 @@ app.use ((req, res, next) => {
 // an error handler that sets the error message and status code
 app.use ((err, req, res, next) => {
     res.status (err.status);
+    console.log ('Global error handler was called', err);
     res.render ('error', { error: err });
 });
 

@@ -79,6 +79,25 @@
                 "../static/images/interactive_form_top.jpeg",
                 "../static/images/interactive_form_bottom.jpeg"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "A small image gallery app is built in a modular fashion. React Router sets up routes for three default topic pages and a search page. Axios fetches data from the Flickr API and use it to display images in the app.",
+            "technologies": [
+                "JavaScript",
+                "React",
+                "React Router",
+                "Axios",
+                "HTML/CSS"
+            ],
+            "live_link": "https://react-gallery-app.now.sh/", 
+            "github_link": "https://github.com/kristinasavova/react_gallery_app", 
+            "image_urls": [
+                "../static/images/react_app_main.jpeg",
+                "../static/images/react_app_hover.jpeg",
+                "../static/images/react_app.jpeg"
+            ]
         }
     ]
 }
