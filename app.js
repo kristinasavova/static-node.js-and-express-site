@@ -25,12 +25,13 @@ app.use ((req, res, next) => {
 
 // an error handler that sets the error message and status code
 app.use ((err, req, res, next) => {
-    res.status (err.status);
+    res.status (err.status || 500);
     console.log ('Global error handler was called', err);
     res.render ('error', { error: err });
 });
 
 // start a server
-app.listen (3000, () => {
-    console.log ('The application is running on localhost:3000');
+app.set ('port', process.env.PORT || 3000);
+const server = app.listen (app.get ('port'), () => {
+    console.log (`Express server is listening on port ${server.address ().port}`);
 });
