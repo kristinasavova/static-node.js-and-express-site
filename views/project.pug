@@ -13,8 +13,11 @@ block content
         ul
           each technologie in project.technologies
             li= `${technologie}`
-        a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
+        if project.live_link  
+          a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
         a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
-    img.image(src=`${project.image_urls[1]}`)
-    img.image(src=`${project.image_urls[2]}`)
+    - var n = 0; 
+    while n < project.image_urls.length - 1 
+      - n ++
+        img.image(src=`${project.image_urls[n]}`)
       

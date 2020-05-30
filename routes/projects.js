@@ -1,12 +1,16 @@
 // variables to require the necessary dependencies
 const express = require ('express'); 
 const router = express.Router ();
-
 const { projects } = require ('../data.json'); 
 
-// redirect to the home page if '/projects'
+// an 'index' route to render the '/projects' page with the locals set to projects
 router.get ('/projects', (req, res) => {
-    res.redirect ('/');
+    res.render ('index', { projects });
+});
+
+// redirect to '/projects' page if '/project'
+router.get ('/project', (req, res) => {
+    res.redirect ('/projects');
 });
 
 // dynamic 'project' routes based on the id of the project that render a customized version of the Pug project template 

@@ -1,11 +1,10 @@
 // variables to require the necessary dependencies
 const express = require ('express');
 const router = express.Router (); 
-const { projects } = require ('../data.json'); 
 
-// an 'index' route to render the home page with the locals set to projects
+// redirect to '/projects' if '/'
 router.get ('/', (req, res) => {
-    res.render ('index', { projects });
+    res.redirect ('/projects');
 });
 
 // an 'about' route to render the about page

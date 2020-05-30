@@ -148,12 +148,12 @@
                 "Sequelize ORM",
                 "HTML/CSS"
             ],
-            "live_link": "none", 
             "github_link": "https://github.com/kristinasavova/full_stack_app_with_react_and_a_rest_api-v1", 
             "image_urls": [
                 "../static/images/school.jpeg",
                 "../static/images/school-main.jpeg",
-                "../static/images/school-update.jpeg"
+                "../static/images/school-update.jpeg",
+                "../static/images/school-course.jpeg"
             ]
         }
     ]
