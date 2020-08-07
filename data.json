@@ -2,6 +2,23 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "Portfolio Webpage",
+            "description": "A personal portfolio webpage created in accordance with the principles of Responsive Web Design. CSS Flexbox, media queries, fluid typography and mobile first approach are used in order to improve user experience.",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://kristinasavova.github.io/personal-portfolio-webpage/", 
+            "github_link": "https://github.com/kristinasavova/personal-portfolio-webpage", 
+            "image_urls": [
+                "../static/images/portfolio-webpage.jpeg",
+                "../static/images/portfolio-webpage-main.jpeg",
+                "../static/images/portfolio-webpage-video.jpeg",
+                "../static/images/portfolio-webpage-skills.jpeg"
+            ]
+        },
+        {
+            "id": 1,
             "project_name": "Exercise Tracker REST API MongoDB",
             "description": "The RESTful Node server with MongoDB database that provides a way for users to store and retrieve information about their exercise routine.",
             "technologies": [
@@ -21,7 +38,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 2,
             "project_name": "React Gallery App",
             "description": "A small image gallery app that fetches data from the Flickr API and displays images for three default topic pages and a search page.",
             "technologies": [
@@ -39,7 +56,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Full Stack App with React and REST API",
             "description": "Provides a way to administer a school database: users can interact with the database by retrieving a list of courses, viewing details for a specific course, as well as creating, updating and deleting courses. The app requires to create an account and sign in. ",
             "technologies": [
@@ -60,7 +77,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "REST API SQL",
             "description": "The API provides a way for users to administer a school database that contains information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses. The project requires users to create an account and log-in in order to be able to make changes to the database.",
             "technologies": [
@@ -78,7 +95,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "project_name": "SQL Library Manager",
             "description": "A web application that helps a library to manage their collection of books. Users can interact with the database by retrieving a list of books, as well as adding, updating and deleting books in the database.",
             "technologies": [
@@ -97,7 +114,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "project_name": "Public Api Requests",
             "description": "An app that provides a possibility for remote employees of the distributed company to stay in touch by sharing contact information with each other.",
             "technologies": [
@@ -114,7 +131,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "project_name": "Interactive Form",
             "description": "An interactive registration form for a conference with a real-time validation and helpful error messages.",
             "technologies": [
@@ -130,7 +147,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
             "project_name": "List Pagination and Filtering",
             "description": "In this project, JavaScript improves the usability of a webpage displaying only ten students at a time and adding a list of navigation links at the bottom of the page. This solution works with a list of any number of students. Also, a search component is added. The principle of 'progressive enhancement' is used: the page still displays the list of students with the JavaScript turned-off, but gets 'improved' with the JavaScript programming added.",
             "technologies": [
@@ -146,7 +163,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 9,
             "project_name": "Phrase Hunter",
             "description": "In this project, JavaScript and the principles of OOP are used to create a word-guessing game in which a player tries to guess a hidden phrase by clicking letters on an onscreen or on a physical computer keyboard.",
             "technologies": [
@@ -162,7 +179,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": 10,
             "project_name": "Random Quote Generator",
             "description": "Practicing basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button or at regular intervals.",
             "technologies": [
